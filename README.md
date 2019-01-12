@@ -272,4 +272,5 @@ squeezenet（原始例子）| 121ms
 mtcnn（最小人脸40）| 47ms
 
 #  Raspberry pi3
-mtcnn_ncnn,无需编译protobuf，只需编译ncnn，同时将动态库cp 至 /usr/lib目录下，将ncnn的src下的头文件以及build后的头文件放在 3rd的include下 ，切换目录到mtcnn_ncnn下，新建build目录，输入 cmake .. 以及make -j4，既可生产 mtcnn_n
+树莓派下mtcnn_ncnn的使用,无需编译protobuf，只需编译ncnn，同时将动态库cp 至 /usr/lib目录下，将ncnn的src下的头文件以及build后的头文件放在 3rd的include下 ，切换目录到mtcnn_ncnn下，新建build目录，输入 cmake .. 以及make -j4，既有 mtcnn_ncnn可执行文件
+我的树莓派是3B，速度是1000ms-1500ms之间
