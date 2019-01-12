@@ -7,6 +7,7 @@
  */
 
 #include "mtcnn.h"
+#include <math.h>
 
 bool cmpScore(Bbox lsh, Bbox rsh) {
 	if (lsh.score < rsh.score)

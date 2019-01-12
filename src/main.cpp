@@ -3,7 +3,7 @@
 
 using namespace cv;
 
-#define MAXFACEOPEN 0 //设置是否开关最大人脸调试，1为开，其它为关
+#define MAXFACEOPEN 0 //
 
 void test_video() {
 	char *model_path = "../models";
